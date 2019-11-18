@@ -24,7 +24,7 @@ public class WebMvcApplicationTest {
 	@Test
 	public void crearUsuarioTest() {
 		Usuario us = new Usuario();
-		us.setId(3);
+		us.setId_usuario(3);
 		us.setNombre("mito");
 		us.setClave(encoder.encode("123"));
 		Usuario retorno = repo.save(us);

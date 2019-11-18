@@ -7,15 +7,15 @@ import javax.persistence.Id;
 public class Usuario {
 
 	@Id
-	private int id;
+	private int id_usuario;
 	private String nombre;
 	private String clave;
 	
-	public int getId() {
-		return id;
+	public int getId_usuario() {
+		return id_usuario;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setId_usuario(int id_usuario) {
+		this.id_usuario = id_usuario;
 	}
 	public String getNombre() {
 		return nombre;
@@ -30,5 +30,5 @@ public class Usuario {
 		this.clave = clave;
 	}
 	
-	
+		
 }

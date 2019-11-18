@@ -8,17 +8,17 @@ import javax.persistence.Id;
 public class Persona {
 	
 	@Id
-	private int idPersona;
+	private int id_persona;
 	
 	@Column(name = "nombre" , length = 50)
 	private String nombre;
 
-	public int getIdPersona() {
-		return idPersona;
+	public int getId_persona() {
+		return id_persona;
 	}
 
-	public void setIdPersona(int idPersona) {
-		this.idPersona = idPersona;
+	public void setId_persona(int id_persona) {
+		this.id_persona = id_persona;
 	}
 
 	public String getNombre() {
@@ -28,6 +28,8 @@ public class Persona {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+
 	
+		
 	
 }
